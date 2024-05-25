@@ -11,8 +11,8 @@ import org.testng.Assert;
 
 public class LoginSteps {
     WebDriver driver;
-    String userId = "mngr572310";
-    String password = "EhYpyrE";
+    //String userId = "mngr572310";
+    //String password = "EhYpyrE";
     String invalidPassword = "invalid";
 
     @Given("The user is in the Login page")
@@ -22,10 +22,10 @@ public class LoginSteps {
         driver.manage().window().maximize();
         driver.get("https://www.demo.guru99.com/V4/index.php");
     }
-    @When("Entering valid credentials")
-    public void entering_valid_credentials()
+    @When("user enters valid (.*) and (.*)$")
+    public void entering_valid_credentials(String name, String password)
     {
-        driver.findElement(By.xpath("//input[@name='uid']")).sendKeys(userId);
+        driver.findElement(By.xpath("//input[@name='uid']")).sendKeys(name);
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
         driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
     }
