@@ -16,11 +16,12 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/java/Features",
         glue = {"Steps"},
         monochrome = true,
-        plugin = {"html:Reports/HTMLReports",
+        plugin = {"html:Reports/HTMLReports/index.html",
         "json:Reports/JsonReports/Cucumber.json",
         "junit:Reports/JUnitReports/Cucumber.xml"},
 
-        dryRun = false
+        dryRun = false,
+        tags = "@FunctionalTest and not @SanityTest"
 )
 
 public class TestRunner {

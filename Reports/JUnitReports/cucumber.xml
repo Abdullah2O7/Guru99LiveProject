@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.661" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Using Tags in Cucumber" name="Scenario1" time="0.35">
+<system-out><![CDATA[
+Given This is Scenario1.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Using Tags in Cucumber" name="Scenario2" time="0.013">
+<system-out><![CDATA[
+Given This is Scenario2.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Using Tags in Cucumber" name="Scenario4" time="0.001">
+<system-out><![CDATA[
+Given This is Scenario4.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
