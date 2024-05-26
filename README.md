@@ -1,6 +1,10 @@
-#Guru99 Live Project
+# Guru99 Live Project
 
-#Table of Contents
+# Table of Contents
+* [Introduction](https://github.com/Abdullah2O7/GuruLiveProject/blob/master/README.md#introduction)
+* [Features](https://github.com/Abdullah2O7/GuruLiveProject/blob/master/README.md#features)
+* [Programming Languages](https://github.com/Abdullah2O7/GuruLiveProject/blob/master/README.md#programming-languages)
+* [Frameworks and Libraries](https://github.com/Abdullah2O7/GuruLiveProject/blob/master/README.md#frameworks-and-libraries)
 * [Tools](https://github.com/Abdullah2O7/GuruLiveProject/blob/master/README.md#tools)
 
 # Introduction
