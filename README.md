@@ -1,3 +1,8 @@
+#Guru99 Live Project
+
+#Table of Contents
+* [Tools](https://github.com/Abdullah2O7/GuruLiveProject/blob/master/README.md#tools)
+
 # Introduction
 The Guru99 Live Project is a demonstration project created for learning and practicing software automation testing using Selenium and Java. The project automates various test scenarios for the Guru99 website, ensuring the website's functionality and reliability through automated testing.
 
